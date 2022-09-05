@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Glass Website</title>
+  </head>
+  <body>
+    <main>
+      <!-- Trqbva o6te 1 container tuk za vertikalno centrirane! -->
+      <div class="hero-container">
+        <section class="section-hero">
+          <header class="header">
+            <div class="logo">
+              <h2 class="logo-text"><a href="#">Nikolay`s Website</a></h2>
+            </div>
+
+            <nav class="main-nav">
+              <ul>
+                <li><a href="#others">What others say?</a></li>
+                <li><a href="#question">Ask me a question!</a></li>
+                <li><a href="#" class="hire">Hire me!</a></li>
+              </ul>
+            </nav>
+          </header>
+
+          <div class="hero">
+            <div class="hero-text-box">
+              <h1 class="heading-primary">Hi, I'm Nikolay!</h1>
+              <p>
+                I'm a web developer from Bulgaria. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Assumenda aliquid atque quasi
+                facere unde quibusdam consequuntur error voluptas illo sit.
+              </p>
+              <div class="btns">
+                <a href="#" class="hire btn btn--highlight">Hire me!</a>
+                <p class="btn-text">or</p>
+                <a href="#others" class="btn btn--outline"
+                  >What others say &darr;</a
+                >
+              </div>
+            </div>
+
+            <div class="hero-img-box">
+              <img
+                src="profile picture.jpg"
+                class="hero-img"
+                alt="profile picture"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="others-container" id="others">
+        <section class="section-others">
+          <h1 class="heading-others">What others say?</h1>
+          <div class="card-container">
+            <div class="card">
+              <img src="boiko.jpg" class="boiko-img" alt="boiko borisov" />
+              <h3>Boiko Borisov</h3>
+              <p>"The player of the match!"</p>
+              <p>"The next Prime minister of Bulgaria!"</p>
+            </div>
+            <div class="card">
+              <img
+                src="rumen radev.jpg"
+                class="rumen-radev-img"
+                alt="rumen radev"
+              />
+              <h3>Rumen Radev</h3>
+
+              <p>"Bulgarian of the year... every year!"</p>
+              <p>"He is my next Prime minister!"</p>
+            </div>
+            <div class="card">
+              <img src="elon musk.jfif" class="elon-img" alt="elon musk" />
+              <h3>Elon Musk</h3>
+
+              <p>"I'm taking him to Mars!"</p>
+              <p>"Best web-developing astronaut that I know!"</p>
+            </div>
+          </div>
+          <div class="btn-container">
+            <a href="#others" class="btn btn--outline hire">Want to hire me?</a>
+            <p class="btn-text">or</p>
+            <a href="#question" class="btn btn--outline"
+              >Want to ask me a question?</a
+            >
+          </div>
+        </section>
+      </div>
+
+      <div class="contact-container" id="question">
+        <section class="section-contact">
+          <h1 class="heading-contact">Want to ask me a question?</h1>
+          <div class="img-form-container">
+            <div class="img-box"></div>
+            <form class="contact-form" action="#">
+              <div>
+                <input
+                  class="field"
+                  type="text"
+                  placeholder="What's your name?"
+                  required
+                />
+              </div>
+              <div>
+                <input
+                  class="field"
+                  type="email"
+                  placeholder="What's your email?"
+                  required
+                />
+              </div>
+              <div>
+                <textarea
+                  class="field"
+                  placeholder="What's your question?"
+                  cols="30"
+                  rows="10"
+                  required
+                ></textarea>
+              </div>
+              <button class="btn-form">Send</button>
+            </form>
+          </div>
+        </section>
+      </div>
+
+      <div class="modal-bg">
+        <div class="modal">
+          <h2 class="heading-modal">Choose your website</h2>
+          <div class="plans">
+            <div class="basic">
+              <h3>Basic?</h3>
+              <div class="img img-simple"></div>
+              <p><span class="dot"></span> 1 page only</p>
+              <p><span class="dot"></span> Static</p>
+              <p><span class="dot"></span> Beaufitul, but not too much...</p>
+              <div class="price simple-price">5k &euro;</div>
+            </div>
+            <div class="advanced">
+              <h3>Advanced!</h3>
+              <div class="img img-complicated"></div>
+              <p><span class="dot"></span> 4 page website</p>
+              <p><span class="dot"></span> Responsive</p>
+              <p><span class="dot"></span> Absolutely gorgeous!</p>
+              <div class="price advanced-price">20k &euro;</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
